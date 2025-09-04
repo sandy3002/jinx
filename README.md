@@ -1,6 +1,6 @@
-# Jinx
+# Jinx <img src="jinx.png" alt="jinx.png" width="25">
 
-This is a fork of Visual Studio Code - Open Source
+This is a fork of Code - OSS
 
 ## License
 
