@@ -1,9 +1,9 @@
 {
-  "name": "code-oss-dev",
+  "name": "jinx-dev",
   "version": "1.104.0",
   "distro": "ac1cb85a260685046f3a9961d551ab6901dd7cb6",
   "author": {
-    "name": "Microsoft Corporation"
+    "name": "sandy3002"
   },
   "license": "MIT",
   "main": "./out/main.js",
@@ -33,7 +33,7 @@
     "watch-extensionsd": "deemon npm run watch-extensions",
     "kill-watch-extensionsd": "deemon --kill npm run watch-extensions",
     "precommit": "node build/hygiene.js",
-    "gulp": "node --max-old-space-size=8192 ./node_modules/gulp/bin/gulp.js",
+    "gulp": "node --max-old-space-size=16384 ./node_modules/gulp/bin/gulp.js",
     "electron": "node build/lib/electron",
     "7z": "7z",
     "update-grammars": "node build/npm/update-all-grammars.mjs",
@@ -229,10 +229,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/vscode.git"
+    "url": "https://github.com/sandy3002/vscode.git"
   },
   "bugs": {
-    "url": "https://github.com/microsoft/vscode/issues"
+    "url": "https://github.com/sandy3002/vscode/issues"
   },
   "optionalDependencies": {
     "windows-foreground-love": "0.5.0"
